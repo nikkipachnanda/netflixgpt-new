@@ -1,12 +1,10 @@
 import logo from './logo.svg';
-import './App.css';
+import Body from './components/Body';
 
 function App() {
   return (
-    <div className="App">
-      <header className=" text-3xl font-bold text-red-700">
-         netflixgpt project web application
-      </header>
+    <div>
+      <Body/>
     </div>
   );
 }
